@@ -338,7 +338,7 @@ class DataQueryCutoffForSessionTestCase(zf.ZiplineTestCase):
             US_EQUITIES: datetime.time(8, 45),
         }
 
-        for domain, expected_cutoff_time in expected_cutoff_times.iteritems():
+        for domain, expected_cutoff_time in expected_cutoff_times.items():
             self._test_equity_calendar_domain(domain, expected_cutoff_time)
 
     def test_equity_calendar_domain(self):
