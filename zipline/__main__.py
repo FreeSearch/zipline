@@ -185,8 +185,8 @@ def ipython_only(option):
 @click.option(
     '--trading-calendar',
     metavar='TRADING-CALENDAR',
-    default='XNYS',
-    help="The calendar you want to use e.g. XLON. XNYS is the default."
+    default='NYSE',
+    help="The calendar you want to use e.g. LSE. NYSE is the default."
 )
 @click.option(
     '--print-algo/--no-print-algo',
